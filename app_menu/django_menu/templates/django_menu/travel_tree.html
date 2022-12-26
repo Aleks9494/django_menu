@@ -1,0 +1,15 @@
+{% comment %} {{test}} {% endcomment %}
+{% if node.name in visible_items %}
+    <li> 
+        <a style="font-weight:bold" href="{{ node.url }}" id='item'> {{node.name}} </a> 
+        {% if node.children %}
+            <ul id='children'>
+                {% for ch in node.children %}
+                    {% with node=ch template_name="django_menu/travel_tree.html" %}
+                        {% include template_name%}
+                    {% endwith %}
+                {% endfor %}
+            </ul>
+        {% endif %}
+    </li>
+{% endif %}
