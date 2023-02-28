@@ -1,7 +1,7 @@
 Запуск<br>
     - pip install -r requirements.txt<br>
     - Создать базу данных PostgreSQL<br>
-        -- sudo -i -u postgres<br>
+        &emsp;-- sudo -i -u postgres<br>
         -- psql<br>
         -- CREATE DATABASE menu_test<br>
     - Затем применить миграции:<br>
