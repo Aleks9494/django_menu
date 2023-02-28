@@ -1,10 +1,10 @@
 Запуск<br>
-    - [x] pip install -r requirements.txt<br>
-    - [x] Создать базу данных PostgreSQL<br>
+    -[X] pip install -r requirements.txt<br>
+    -[x] Создать базу данных PostgreSQL<br>
     sudo -i -u postgres<br>
     psql<br>
     CREATE DATABASE menu_test<br>
-    - [x] Затем применить миграции:<br>
+    - [X] Затем применить миграции:<br>
     python3 manage.py makemigrations<br>
     python3 manage.py migrate<br>
     - [x] Создать пользователя<br>
