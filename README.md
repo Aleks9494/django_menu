@@ -14,3 +14,4 @@
     и добавить в файле HTML 'django_menu/templates/django_menu/menu_list.html':<br>
     {% draw_menu 'имя созданного меню' %}<br>
     - [x] python3 manage.py runserver<br>
+    
